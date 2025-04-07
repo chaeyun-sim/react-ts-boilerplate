@@ -3,4 +3,11 @@
 @theme {
   --color-black: #000000;
   --color-white: #ffffff;
+  --font-pretendard: "Pretendard", "sans-serif"
+}
+
+@layer {
+  body {
+    font-family: Pretendard;
+  }
 }
